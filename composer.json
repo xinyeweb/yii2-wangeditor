@@ -1,0 +1,22 @@
+{
+    "name": "xinyeweb/yii2-wangeditor",
+    "description": "yii2-wangeditor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hoter",
+            "email": "hotar.zhang@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/wangeditor": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xinyeweb\\wangeditor\\": ""
+        }
+    }
+}
