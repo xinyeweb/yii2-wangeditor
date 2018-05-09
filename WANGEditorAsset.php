@@ -17,13 +17,13 @@ class WANGEditorAsset extends AssetBundle
     public $css = [];
     public $js = [
         'plupload/plupload.full.min.js',
-        'qiniu.js',
+        'qiniu.min.js',
         'wangEditor.min.js'
     ];
 
     public function init()
     {
-        $this->sourcePath = '@npm/wangeditor/release';
+        $this->sourcePath = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'release';
         parent::init();
     }
 }
